@@ -70,9 +70,6 @@ namespace Lemming.Services
 
             int rndNum = new Random().Next(20);
             
-            // Console.WriteLine($"Videos:\n{string.Join("\n", videos)}\n");
-            Console.WriteLine($"Videos:\n{videos[rndNum]}\n");
-
             return $"Video:\n{videos[rndNum]}\n";
         }
     }
